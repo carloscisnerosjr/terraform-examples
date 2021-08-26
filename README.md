@@ -8,7 +8,7 @@ Here is a run down of how the traffic flows through the architecture.
 2. The Meraki appliance points to the network load balancer hosted in AWS.
 3. The network load balancer routes the UDP traffic to one of three EC2 instances hosted within an AZ.
 4. The RADIUS agent installed on the EC2 instances checks against Okta to verify that the user credentials are either accepted or rejected.
-5. The request is then routed back to the user and allows or denies access based on the evaluations of the credentials. 
+5. The request is then routed back to the user and allows or denies VPN access based on the evaluation of the credentials. 
 
 
 ![Alt text](./radius-agent-server.svg)
