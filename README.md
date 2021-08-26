@@ -1,4 +1,4 @@
-# terraform-examples
+# Meraki, Okta and AWS VPN Architecture 
 
 This is an example of some of my work leading a VPN re-architecture. We deployed RADIUS agents on three EC2 instances across three availability zones and also load balanced the UDP traffic using a network load balancer. All traffic is logged using a Cloudwatch agent and the RADIUS agent process is monitored using a Datadog process monitor. 
 
