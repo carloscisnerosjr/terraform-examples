@@ -11,4 +11,5 @@ Here is a run down of how the traffic flows through the architecture.
 5. The request is then routed back to the user and allows or denies VPN access based on the evaluation of the credentials. 
 
 Reference documentation: https://help.okta.com/en/prod/Content/Topics/integrations/getting-started.htm
+
 ![Alt text](./radius-agent-server.svg)
